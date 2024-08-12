@@ -1,10 +1,13 @@
 import './App.css'
+import CounterComponent from './Components/CounterComponent'
+import CounterComponent2 from './Components/CounterComponent2'
 
 function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <CounterComponent/>
+      <CounterComponent2/>
     </>
   )
 }
