@@ -18,6 +18,8 @@ function App() {
       <UserForm/>
 
       {/* ---------------------------- API Integration ---------------------------- */}
+
+      {/* 1. Using old method of API integration i,.e axios library */}
       <Api/>
 
       
