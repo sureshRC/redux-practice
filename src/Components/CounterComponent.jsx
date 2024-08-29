@@ -3,7 +3,7 @@ import {
   setCountIncrement,
   setCountDecrement,
   setCountIncrementByAmount5
-} from "../Redux/Slices/CounterSlice";
+} from "../Redux/Slices/states/CounterSlice";
 
 const CounterComponent = () => {
   const count = useSelector((state) => {
